@@ -4,10 +4,10 @@
  * @list: pointer to the list
  * Return: 0 if there is no cycle,1 if there is a cycle
  */
-int check_cycle(listint_s *list)
+int check_cycle(listint_t *list)
 {
-	listint_s *p2;
-	listint_s *prev;
+	listint_t *p2;
+	listint_t *prev;
 
 	p2 = list;
 	prev = list;
